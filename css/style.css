@@ -326,6 +326,8 @@ html::-webkit-scrollbar {
 .catalog__item {
   width: 360px;
   background-color: #ffa501;
+  position: relative;
+  padding: 0px 0px 100px 0px;
 }
 
 .catalog__item-content {
@@ -378,10 +380,12 @@ html::-webkit-scrollbar {
   font-weight: 700;
   line-height: 1.35;
   text-decoration: line-through;
-  margin-bottom: 40px;
 }
 
 .catalog__btn {
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
   color: #ffffff;
   padding: 9px 20px;
   border: 1px #fff solid;
